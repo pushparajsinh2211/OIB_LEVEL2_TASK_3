@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 100;
+  margin: 2rem 0;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+}
+
+.heading {
+  font-weight: 800;
+  color: rgb(212, 255, 0);
+}
+
+.input_div {
+  display: flex;
+  justify-content: center;
+}
+
+.new_task_input {
+  padding: 0.5rem 2rem;
+  height: 50px;
+  outline: none;
+  border: none;
+  background-color: #ffff;
+  width: 450px;
+  font-size: 1.2rem;
+  margin: 0.25rem;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 25px;
+}
+
+.addBtn {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  outline: none;
+  border: none;
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  margin: 0.25rem;
+  background-color: rgb(212, 255, 0);
+  cursor: pointer;
+}
+
+.addBtn:hover {
+  opacity: 0.7;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.item {
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 4px solid #fff;
+}
+
+.item_input {
+  background: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  border: none;
+  width: 350px;
+  font-size: 1.4rem;
+}
+
+.item_input:enabled {
+  color: rgb(212, 255, 0);
+}
+
+.editBtn {
+  font-size: 1.4rem;
+  margin: 0 0.5rem;
+  font-family: "Montserrat", sans-serif;
+  background: none;
+  outline: none;
+  color: rgb(212, 255, 0);
+  border: none;
+  cursor: pointer;
+}
+
+.removeBtn {
+  font-size: 1.4rem;
+  margin: 0 0.5rem;
+  font-family: "Montserrat", sans-serif;
+  background: none;
+  outline: none;
+  color: rgb(243, 57, 57);
+  border: none;
+  cursor: pointer;
+}
